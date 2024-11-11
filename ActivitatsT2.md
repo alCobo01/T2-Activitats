@@ -93,14 +93,7 @@ namespace ActivitatsPrimerTema
     {
         public static bool IsNatural(int numUser)
         {
-            if (numUser < 0)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            return numUser > 0;
         }
 
         public static void Main()
