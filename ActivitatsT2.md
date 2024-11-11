@@ -376,6 +376,16 @@ namespace ActivitatsPrimerTema
 //CON:
 ```
 
+## Exercici 18
+### Clases d'equivàlencia
+- Edat vàlida: Entre 0 i 120
+- Edat invàlida: fora del rang
+
+### Casos extrems
+- 0 i 120 -> Depenent de com esté fet el programa entrarà al rang o no.
+- -1, 121 -> Estàn al límit de l'interval
+
+## Test per cada cas de prova
 
 
 
