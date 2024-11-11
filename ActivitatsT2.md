@@ -384,8 +384,38 @@ namespace ActivitatsPrimerTema
 ### Casos extrems
 - 0 i 120 -> Depenent de com esté fet el programa entrarà al rang o no.
 - -1, 121 -> Estàn al límit de l'interval
+- 132, -32 -> Per provar
 
-## Test per cada cas de prova
+### Test per cada cas de prova
+| Nom cas de prova | Descripció | Entrada | Accions | Resultat esperat | Resultat obtingut |
+|---|---|---|---|---|---|
+| Límit del rang | Comprovar els límits del rang establert | 0 | Crida al metòde amb 0 com argument |  |   |
+| Límit del rang | Comprovar els límits del rang establert | 120 | Crida al metòde amb 120 com argument | |   |
+| Límit del rang per fora | Comprovar els límits del rang establert | -1, 121 | Crida al metòde amb -1 & 121 com argument | |   |    
+| Fora del rang | Comprovar la condició del rang | 132, -32 | Crida al metòde amb 132 & -32 com argument |   |   |
 
+## Exercici 19
+### Clases d'equivàlencia
+- Edat valida: 0-120
 
+- 50% descompte
+  - 0-12
+- 25% descompte
+  - 13-17
+- 0% descompte
+  - 18-64
+- 30% descompte
+  - 65-120
 
+### Tests ver validar descompte
+- 50% descompte
+    - 2, 5
+- 25% descompte
+    - 16, 17
+- 0% descompte
+    - 18, 54
+- 30% descompte
+    - 68, 100
+
+### Casos límit
+12-13, 17-18, 64-65 són tots casos límits per cada rang de descomptes.
